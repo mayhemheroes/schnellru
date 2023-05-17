@@ -56,7 +56,8 @@ jobs:
         mayhemfile:
         - mayhem/fuzz-behavior-matches-lru.mayhemfile
         - mayhem/fuzz-by-memory-usage-works.mayhemfile
-        - mayhem/fuzz_internal_invariants.mayhemfile
+        - mayhem/fuzz-internal-invariants.mayhemfile
+        - mayhem/fuzz-insert.mayhemfile
     steps:
     - uses: actions/checkout@v3
     - name: Start analysis for ${{ matrix.mayhemfile }}

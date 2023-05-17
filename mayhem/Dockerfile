@@ -21,3 +21,5 @@ COPY --from=builder /schnellru/fuzz/hfuzz_target/x86_64-unknown-linux-gnu/releas
 COPY --from=builder /schnellru/fuzz/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz-by-memory-usage-works /
 
 COPY --from=builder /schnellru/fuzz/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz-internal-invariants /
+
+COPY --from=builder /schnellru/fuzz/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzz-insert /
