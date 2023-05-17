@@ -1,0 +1,6 @@
+project: schnellru
+target: fuzz-internal-invariants
+duration: 300
+
+cmds:
+  - cmd: /fuzz-internal-invariants

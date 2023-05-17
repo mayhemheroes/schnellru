@@ -1,0 +1,6 @@
+project: schnellru
+target: fuzz-behavior-matches-lru
+duration: 300
+
+cmds:
+  - cmd: /fuzz-behavior-matches-lru
