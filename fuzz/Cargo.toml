@@ -18,6 +18,10 @@ path = "src/fuzz-internal-invariants.rs"
 name = "fuzz-by-memory-usage-works"
 path = "src/fuzz-by-memory-usage-works.rs"
 
+[[bin]]
+name = "fuzz-insert"
+path = "src/fuzz-insert.rs"
+
 [dependencies]
 arbitrary = { version = "1", features = ["derive"] }
 honggfuzz = "0.5"

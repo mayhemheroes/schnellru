@@ -1,0 +1,6 @@
+project: schnellru
+target: fuzz-insert
+duration: 300
+
+cmds:
+  - cmd: /fuzz-insert

@@ -1,0 +1,6 @@
+project: schnellru
+target: fuzz-by-memory-usage-works
+duration: 300
+
+cmds:
+  - cmd: /fuzz-by-memory-usage-works
